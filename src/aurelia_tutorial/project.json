@@ -10,7 +10,7 @@
         "**.vspscc"
     ],
     "dependencies": {
-        "Microsoft.AspNet.Server.IIS": "1.0.0-beta1",
+        "Microsoft.AspNet.Server.IIS": "1.0.0-beta3",
         "Kestrel":  "1.0.0-beta3"
     },
     "commands": {
