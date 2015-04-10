@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
+using Microsoft.Framework.DependencyInjection;
 
 namespace aurelia_tutorial
 {
@@ -11,6 +12,12 @@ namespace aurelia_tutorial
             // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
             app.UseStaticFiles();
             app.UseFileServer();
+			//app.UseMvc();
         }
+
+		public void ConfigureServices(IServiceCollection services)
+		{
+			//services.AddMvc();
+		}
     }
 }
